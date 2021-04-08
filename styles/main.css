@@ -1,0 +1,70 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.thediscoveriesof.com/wp-content/uploads/2018/12/Interesting-Facts-about-London.jpg);
+    background-size: cover;
+    
+}
+img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+}
+#clock{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 50%;
+}
+#hours{
+    position: absolute;
+    width: 8px;
+    height: 110px;
+    background-color:  rgb(66, 42, 10);
+    margin-top: 18%;
+    margin-left: 33%;
+    border-radius: 10px;
+    -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+#minutes{
+    position: absolute;
+    width: 8px;
+    height: 130px;
+    background-color: rgb(66, 42, 10);
+    margin-top: 14.2%;
+    margin-left: 33%;
+    border-radius: 10px;
+    -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+#seconds{
+    position: absolute;
+    width: 4px;
+    height: 130px;
+    background-color: rgb(241, 232, 232);
+    margin-top: 14.2%;
+    margin-left: 33%;
+    border-color: black;
+    border-style: solid ;
+    border-width: 1px;
+    border-radius: 10px;
+    -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+/* #hours{
+    animation: rotate 43200s infinite linear;
+}
+#minutes{
+    animation: rotate 3600s infinite steps(60);
+}
+#seconds{
+    animation: rotate 60s infinite steps(60)
+} */
+/* @keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+} */
